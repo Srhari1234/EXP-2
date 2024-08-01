@@ -46,6 +46,6 @@ OUTPUT3:
 
 <img width="314" alt="image" src="https://github.com/user-attachments/assets/782794b9-bf3b-4df5-8ef3-8cbcd9a24632">
 
+Conclusion:
 
-
-
+Understanding C++ data types is crucial for effective programming. Basic types like int, float, double, char, and bool cover fundamental data needs, while derived types like arrays and pointers, and user-defined types like struct and class, offer advanced functionality. Mastering these types helps you manage data efficiently and write robust C++ programs.
