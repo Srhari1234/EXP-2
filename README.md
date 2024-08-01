@@ -1,4 +1,24 @@
 # EXP-2
-Aim: To study and implement C++ data structures.
+AIM: To study and implement C++ data structures.
 
-Theory: The unary operator "sizeof" determines the size of data types such as variables and constants. The sizes of data types are usually the same in all cases, such as ints, which are always 4 bytes. In the first code, we determine the size of character, int, float, short int, long int, bool, and long double. In the second code, it is user-defined. The user enters an integer, float, short int, or long int, and the program calculates its size. In the third code, we use the storage classes auto and register. However, there are four storage classes in C++. They are: auto, extern, register, static, and mutable. The auto class defaults to the global variable. Registers defy local variables and have max size as the register size. Static is not user-defined because it only takes one value. extern uses global files that are visible to all programs.
+THEORY:
+
+The sizeof operator in C++ returns the size (in bytes) of a variable or data type. This operator is evaluated at compile time and provides information about the memory allocated for each data type.
+
+a.sizeof(char): Typically returns 1 byte, as the size of char is defined to be 1 byte in C++.
+
+b.sizeof(int): The size of int is system-dependent but usually 4 bytes on most modern systems.
+
+c.sizeof(short int): Usually 2 bytes, though this can vary depending on the system.
+
+d.sizeof(long int): Often 4 or 8 bytes, depending on the system architecture (e.g., 4 bytes on 32 bit systems and 8 bytes on 64-bit systems).
+
+e.sizeof(float): Generally 4 bytes.
+
+f.sizeof(double): Typically 8 bytes.
+
+g.sizeof(long double): Can vary but is often 12 or 16 bytes.
+
+h.sizeof(bool): Often 1 byte, though this can vary.
+
+CODES:
