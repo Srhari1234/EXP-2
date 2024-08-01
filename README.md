@@ -21,4 +21,7 @@ g.sizeof(long double): Can vary but is often 12 or 16 bytes.
 
 h.sizeof(bool): Often 1 byte, though this can vary.
 
-CODES:
+CODE1:
+<img width="659" alt="image" src="https://github.com/user-attachments/assets/3976f324-f70c-4b26-b210-48ad3e057d07">
+OUTPUT1:
+
