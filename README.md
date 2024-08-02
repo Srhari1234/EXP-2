@@ -22,7 +22,6 @@ g.sizeof(long double): Can vary but is often 12 or 16 bytes.
 h.sizeof(bool): Often 1 byte, though this can vary.
 
 ## CODE1:
-
 ```
  // Name: Srihari Nair
 // PRN: 23070123131
@@ -49,7 +48,11 @@ int main() {
     cout << "size of bool: " << sizeof(bool) << "byte" << endl;
     return 0;
 }
- ``` 
+ ```
+
+## OUTPUT 1:-
+
+![image](https://github.com/user-attachments/assets/850ea6a6-dc39-4647-ad7a-934c1b7692ea)
 
 ## CODE2:
 
@@ -101,6 +104,10 @@ int main() {
 }
 ```
 
+## OUTPUT 2: - 
+
+![image](https://github.com/user-attachments/assets/27df74d4-a4c1-44cf-aead-3180d575f588)
+
 ## CODE3:
 
 ```
@@ -126,6 +133,10 @@ int main() {
     return 0;
 }
 ```
+
+## OUTPUT 3: - 
+
+![image](https://github.com/user-attachments/assets/8e8f3b03-b7f0-45ed-a7a7-dbb0f7b5c892)
 
 ## Conclusion:
 
