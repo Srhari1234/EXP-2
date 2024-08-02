@@ -1,7 +1,7 @@
 # EXP-2
-AIM: To study and implement C++ data structures.
+## AIM: To study and implement C++ data structures.
 
-THEORY:
+## THEORY:
 
 The sizeof operator in C++ returns the size (in bytes) of a variable or data type. This operator is evaluated at compile time and provides information about the memory allocated for each data type.
 
@@ -21,13 +21,35 @@ g.sizeof(long double): Can vary but is often 12 or 16 bytes.
 
 h.sizeof(bool): Often 1 byte, though this can vary.
 
-CODE1:
+## CODE1:
 
-<img width="659" alt="image" src="https://github.com/user-attachments/assets/3976f324-f70c-4b26-b210-48ad3e057d07">
-
-OUTPUT1:
-
-<img width="287" alt="image" src="https://github.com/user-attachments/assets/c4a6cac7-7a78-4c7d-a854-a3fc8dd5e77b">
+```
+ // Name: Srihari Nair
+// PRN: 23070123131
+// Class: EnTC-B2
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "size of char: " << sizeof(char) << " byte" << endl;
+    cout << "size of int: " << sizeof(int) << " byte" << endl;
+    cout << "size of float: " << sizeof(float) << " byte" << endl;
+    cout << "size of double: " << sizeof(double) << " byte" << endl;
+    cout << "size of short int: " << sizeof(short int) << "byte" << endl;
+    cout << "size of long int: " << sizeof(long int) << "byte" << endl;
+    cout << "size of long int: " << sizeof(long int) << "byte" << endl;
+    cout << "size of unsigned char: " << sizeof(unsigned char) << "byte" << endl;
+    cout << "size of signed char: " << sizeof(signed char) << "byte" << endl;
+    cout << "size of unsigned int: " << sizeof(unsigned int) << "byte" << endl;
+    cout << "size of signed int: " << sizeof(signed int) << "byte" << endl;
+    cout << "size of unsigned long int: " << sizeof(unsigned long int) << "byte" << endl;
+    cout << "size of signed long int: " << sizeof(signed long int) << "byte" << endl;
+    cout << "size of unsigned short int: " << sizeof(unsigned short int) << "byte" << endl;
+    cout << "size of signed short int: " << sizeof(signed short int) << "byte" << endl;
+    cout << "size of unsigned long long int: " << sizeof(unsigned long long int) << "byte" << endl;
+    cout << "size of bool: " << sizeof(bool) << "byte" << endl;
+    return 0;
+}
+ ``` 
 
 CODE2:
 
