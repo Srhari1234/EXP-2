@@ -51,23 +51,82 @@ int main() {
 }
  ``` 
 
-CODE2:
+## CODE2:
 
-<img width="367" alt="image" src="https://github.com/user-attachments/assets/95cfbf32-351b-4769-af9c-06e0257835b1">
-<img width="374" alt="image" src="https://github.com/user-attachments/assets/0da0a1fc-fc7e-4f65-bf4a-1acc29597d6c">
+```
+// Name: Srihari Nair
+// PRN: 23070123131
+// Class: EnTC-B2
+#include <iostream>
+using namespace std;
 
-OUTPUT2:
+int main() {
+    char a;
+    int b;
+    short int c;
+    long int d;
+    float e;
+    double f;
+    bool g;
 
-<img width="230" alt="image" src="https://github.com/user-attachments/assets/9ee3ce1e-1b29-47c8-b093-3f86dba6c425">
+    cout<<"enter a character: ";
+    cin>>a;
+    cout<<"size of char: "<< sizeof(a)<<endl;
 
-CODE3:
+    cout<<"enter an int: ";
+    cin>>b;
+    cout<<"size of int: "<< sizeof(b)<<endl;
 
-<img width="440" alt="image" src="https://github.com/user-attachments/assets/053e3830-f85f-4909-b8fa-4c7396becc74">
+    cout<<"enter an short int: ";
+    cin>>c;
+    cout<<"size of short int: "<< sizeof(c)<<endl;
 
-OUTPUT3:
+    cout<<"enter an long int: ";
+    cin>>d;
+    cout<<"size of long int: "<< sizeof(d)<<endl;
 
-<img width="314" alt="image" src="https://github.com/user-attachments/assets/782794b9-bf3b-4df5-8ef3-8cbcd9a24632">
+    cout<<"enter an float: ";
+    cin>>e;
+    cout<<"size of float: "<< sizeof(e)<<endl;
 
-Conclusion:
+    cout<<"enter an double: ";
+    cin>>f;
+    cout<<"size of double: "<< sizeof(f)<<endl;
+
+    cout<<"enter an bool: ";
+    cin>>g;
+    cout<<"size of bool: "<< sizeof(g)<<endl;
+
+    return 0;
+}
+```
+
+## CODE3:
+
+```
+// Name: Srihari Nair
+// PRN: 23070123131
+// Class: EnTC-B2
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout<<"enter any integer: ";
+    cin>>a;
+    cout<<"\ninteger = "<<a<<" and size is "<<sizeof(a)<< "bytes";
+    int register b;
+    cout<<"\nenter a number: ";
+    cin>>b;
+    cout<<"\nREGISTER = "<<b<<" and size is "<<sizeof(b)<< "bytes";
+    int auto c;
+    cout<<"\nenter an integer: ";
+    cin>>c;
+    cout<<"/nAuto = "<<c<<" and size is "<<sizeof(c)<< "bytes";
+    return 0;
+}
+```
+
+## Conclusion:
 
 Understanding C++ data types is crucial for effective programming. Basic types like int, float, double, char, and bool cover fundamental data needs, while derived types like arrays and pointers, and user-defined types like struct and class, offer advanced functionality. Mastering these types helps you manage data efficiently and write robust C++ programs.
